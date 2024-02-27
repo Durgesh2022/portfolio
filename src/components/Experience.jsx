@@ -26,6 +26,7 @@ const ExperienceCard = ({ experience }) => {
         <div className="flex justify-center items-center w-full h-full">
           <img
             src={experience.icon}
+            onClick={() => window.open(experience.source_link, "_blank")}
             alt="icon"
             className="w-[60%] h-[60%] object-contain"
           />
@@ -33,11 +34,20 @@ const ExperienceCard = ({ experience }) => {
       }
     >
       <div className="flex justify-center items-center flex-col">
-            <img
-              src={experience.image}
-              alt={experience.title}
-              className="w-[80%] h-auto mb-4"
-            />
+      
+          
+  <img
+    src={experience.image}
+   
+    alt={experience.title}
+
+    className="w-[80%] h-auto mb-4"
+  />
+  
+  
+
+
+
 
         <h3 className="text-white text-[24px] font-bold">{experience.title}</h3>
         <p

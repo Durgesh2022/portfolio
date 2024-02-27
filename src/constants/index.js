@@ -135,7 +135,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      source_link: "",
+      source_link: "https://portfolio-iota-indol-75.vercel.app/",
       source_code_link: "https://github.com/",
     },
     {
@@ -161,7 +161,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      source_link: "https://fitrahoooo.netlify.app/",
+      source_link: "https://fit-rahooo-git-main-durgsh2022s-projects.vercel.app/",
       source_code_link: "https://github.com/",
     },
     {
@@ -187,7 +187,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      source_link: "https://durgsh2022.github.io/copytube2/",
+      source_link: "https://copytube2-git-main-durgsh2022s-projects.vercel.app/",
       source_code_link: "https://github.com/",
     },
   ];
