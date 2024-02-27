@@ -5,15 +5,13 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 
-import { Image } from "react-bootstrap";
-import { Link } from "react-router-dom";
 import "react-vertical-timeline-component/style.min.css";
 import { github } from "../assets";
 import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { styles } from "../styles";
 import { textVariant } from "../utils/motion";
-const source_link = "https://durgsh2022.github.io/copytube2/";
+
 
 const ExperienceCard = ({ experience }) => {
   return (
@@ -37,7 +35,7 @@ const ExperienceCard = ({ experience }) => {
     >
       <div className="flex justify-center items-center flex-col">
             <img
-              src="src\assets\jobit.png"
+              src={experience.image}
               alt={experience.title}
               className="w-[80%] h-auto mb-4"
             />
